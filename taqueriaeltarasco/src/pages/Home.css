@@ -1,0 +1,37 @@
+.mainHomeOuterContainer{
+    
+    display: flex;
+    justify-content: center;
+    min-width: none;
+}
+
+.mainHomeInnerContainer{
+    max-width: 1920px;
+}
+
+.homeCarouselContainer{
+    min-width: none;
+}
+
+.threeSquares{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutSquare {
+    text-align: center;
+    background-color: aquamarine;
+    width: auto;
+}
+
+.menuSquare{
+    width: auto;
+    background-color: aquamarine;
+}
+
+.cateringSquare{
+    width: auto;
+    background-color: aquamarine;
+}

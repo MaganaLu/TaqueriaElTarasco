@@ -1,0 +1,62 @@
+:root {
+  --brown: #ecc486ff;
+  --darkerBrown: #fcae66ff;
+  --red: #ff422fff;
+  --blue: #4b7fafff;
+  --green: #538951ff;
+  padding: 0px;
+}
+
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  text-rendering: optimizeLegibility;
+  background-image: url("./assets/patternBackground.png");
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(.6px);
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #efefef00;
+}
+
+h1 {
+  font-size: 3rem;
+  min-width: none;
+
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+hr {
+  width: 90%;
+}
+
+
+p {
+  font-size: 1rem;
+  min-width: none;
+}
+
+@media (max-width:768px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    min-width: none;
+
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+
+}

@@ -1,0 +1,28 @@
+.glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 39px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  height: 150px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 60px;
+  border-radius: 25px;
+}
+
+.ServicesHeader {
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+
+  background-repeat: no-repeat;
+
+  background-size: 100% 150%;
+  border-radius: 25px;
+}

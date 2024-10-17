@@ -1,0 +1,38 @@
+.aboutContainer{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.aboutHeaderTextMainContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutHeaderTextInnerContainer{
+    max-width: 1080px;
+    background-color: white;
+    border: 3px solid var(--gray);
+}
+
+.aboutHeaderText{
+    max-width: 1080px;
+    text-align: center;
+}
+
+.ServicesCardContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutTextContainer{
+    background-color: rgb(255, 255, 255);
+    max-width: 1080px;
+    margin: auto;
+    text-align: left;
+    border: 3px solid var(--gray);
+    padding: 10px;
+}

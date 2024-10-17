@@ -1,0 +1,74 @@
+.portfolioCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ulPortfolio {
+    padding: 10px;
+}
+
+.PortfolioHeader {
+    height: fit-content;
+    background-image: url('../assets/GradientWallpaperLines.png');
+}
+
+.portfolioContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.portfoliotextContainer{
+    max-width: 1280px;
+    text-align: center;
+    margin: 10px;
+}
+
+.portfolioSubTextContainer{
+    text-align: left;
+}
+
+.portfolioTopContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioMainContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border: 3px solid var(--gray);
+    max-width: 1080px;
+}
+
+.portfolioImageContainer{
+    min-width: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioImage{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    max-width: 300px;
+    height: auto;
+    
+}
+
+.portfolioTopTextArea{
+    max-width: 50%;
+    text-align: center;
+    
+}
+
+
+@media (max-width: 768px) {
+    .portfolioTopTextArea{
+        max-width: 100%;
+    }
+}
