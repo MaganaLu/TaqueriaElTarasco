@@ -7,7 +7,7 @@ import "./HomeCarousel.css";
 
 const responsive = {
   desktop: {
-    breakpoint: {max: 10024, min: 1024 },
+    breakpoint: { max: 10024, min: 1024 },
     items: 1,
     slidesToSlide: 1 // optional, default to 1.
   },
@@ -17,7 +17,7 @@ const responsive = {
     slidesToSlide: 1 // optional, default to 1.
   },
   mobile: {
-    breakpoint: { max: 767, min:0 },
+    breakpoint: { max: 767, min: 0 },
     items: 1,
     slidesToSlide: 1 // optional, default to 1.
   }
@@ -26,34 +26,34 @@ const responsive = {
 const sliderImageUrl = [
   //First image url
   {
-    mediaURL:"https://placehold.co/1920x1080",
-    bigText:"caption 1",
-    smallText:"words"
-      
+    mediaURL: "https://placehold.co/1920x1080",
+    bigText: "caption 1",
+    smallText: "words"
+
   },
   {
-    mediaURL:"https://placehold.co/1920x1080",
-    bigText:"caption 2",
-    smallText:"words"
+    mediaURL: "https://placehold.co/1920x1080",
+    bigText: "caption 2",
+    smallText: "words"
   },
   //Second image url
   {
-    mediaURL:"https://placehold.co/1920x1080",
-    bigText:"caption 3",
-    smallText:"words"
+    mediaURL: "https://placehold.co/1920x1080",
+    bigText: "caption 3",
+    smallText: "words"
   },
   //Third image url
   {
-    mediaURL:"https://placehold.co/1920x1080",
-    bigText:"caption 4",
-    smallText:"words"
+    mediaURL: "https://placehold.co/1920x1080",
+    bigText: "caption 4",
+    smallText: "words"
   },
 
   //Fourth image url
   {
-    mediaURL:"https://placehold.co/1920x1080",
-    bigText:"caption 5",
-    smallText:"words"
+    mediaURL: "https://placehold.co/1920x1080",
+    bigText: "caption 5",
+    smallText: "words"
   }
 ];
 
@@ -61,27 +61,29 @@ const sliderImageUrl = [
 const HomeCarousel = () => {
 
   return (
-    <div className="parentContainer">
-      <Carousel
-        responsive={responsive}
-        autoPlay={true}
-        swipeable={true}
-        draggable={true}
-        showDots={false}
-        infinite={true}
-        partialVisible={false}
-        dotListClass="custom-dot-list-style"
-      >
-        {sliderImageUrl.map((imageEntry) => {
-          return (
-            <div className="slider" key={imageEntry.smallText}>
-              <img src={imageEntry.mediaURL} alt="image" />
-              <h1 className="cHText">{imageEntry.bigText}</h1>
-              <p className="cPText">{imageEntry.smallText}</p>
-            </div>
-          );
-        })}
-      </Carousel>
+    <div className="parentOuterContainer">
+      <div className="parentContainer">
+        <Carousel
+          responsive={responsive}
+          autoPlay={true}
+          swipeable={true}
+          draggable={true}
+          showDots={false}
+          infinite={true}
+          partialVisible={false}
+          dotListClass="custom-dot-list-style"
+        >
+          {sliderImageUrl.map((imageEntry) => {
+            return (
+              <div className="slider" key={imageEntry.smallText}>
+                <img src={imageEntry.mediaURL} alt="image" />
+                <h1 className="cHText">{imageEntry.bigText}</h1>
+                <p className="cPText">{imageEntry.smallText}</p>
+              </div>
+            );
+          })}
+        </Carousel>
+      </div>
     </div>
   );
 };

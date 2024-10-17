@@ -6,11 +6,13 @@ const Home = () => {
 
     return (
         <>
+        
+        <HomeCarousel />
             <div className='mainHomeOuterContainer'>
                 <div className='mainHomeInnerContainer'>
-                    
+                
                     <div className='homeCarouselContainer'>
-                        <HomeCarousel />
+                        
                     </div>
 
                     <div className='threeSquares'>
