@@ -1,8 +1,6 @@
-.parentOuterContainer{
-    
-}
+.parentOuterContainer {}
 
-.parentContainer{
+.parentContainer {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,38 +8,42 @@
     margin: auto;
 }
 
-.cHText{
+.cHText {
     padding: 0;
     margin: 0;
 }
 
-.cPText{
+.cPText {
     padding: 0;
     margin: 0;
 }
 
 .slider {
-    margin:0 20px;
-    overflow:"hidden";
-    padding:1rem 0;
+    margin: 0 10px;
+    overflow: "hidden";
+    
     color: white;
-  }
-  
-  .slider img {
+}
+
+.slider img {
     width: 100%;
-    overflow:"hidden";
-    border-radius:10px;
+    overflow: "hidden";
+    border-radius: 10px;
     max-height: 700px;
-  }
-  
-  .react-multi-carousel-list {
-  padding: 0rem 0 2rem 0;
-  }
-  
-  .custom-dot-list-style button{
-  border: none;
-  background: rgb(255, 255, 255);
-  }
-  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
-  background: rgb(255, 255, 255) !important;
-  }
+}
+
+
+.custom-dot-list-style button {
+    border: none;
+    
+    width: 3px;
+    z-index: 1;
+}
+
+.react-multiple-carousel__arrow{
+    z-index: 1;
+}
+
+
+
+

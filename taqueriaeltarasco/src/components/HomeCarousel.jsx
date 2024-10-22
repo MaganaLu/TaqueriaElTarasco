@@ -70,15 +70,13 @@ const HomeCarousel = () => {
           draggable={true}
           showDots={false}
           infinite={true}
-          partialVisible={false}
+          partialVisible={false} 
           dotListClass="custom-dot-list-style"
         >
           {sliderImageUrl.map((imageEntry) => {
             return (
               <div className="slider" key={imageEntry.smallText}>
                 <img src={imageEntry.mediaURL} alt="image" />
-                <h1 className="cHText">{imageEntry.bigText}</h1>
-                <p className="cPText">{imageEntry.smallText}</p>
               </div>
             );
           })}

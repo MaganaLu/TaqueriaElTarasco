@@ -3,35 +3,90 @@
     display: flex;
     justify-content: center;
     min-width: none;
+    
+    
 }
 
 .mainHomeInnerContainer{
     max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.homeTopOuterContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeTopContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    height: 200px;
+    width: 100vw;
+    margin: 10px;
+    background-color:rgb(255, 255, 255);
+    text-wrap:wrap;
+    min-width: none;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 234, 209);
 }
 
 .homeCarouselContainer{
     min-width: none;
 }
 
+.colorDivHelper{
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+    margin-top: -50px;
+}
+
+.threeItemsList ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+
+.threeItemsList li {
+    flex: 0 0 33.3333%;
+    outline: 1px solid;
+  }
+
 .threeSquares{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    
+    
 }
 
 .aboutSquare {
     text-align: center;
-    background-color: aquamarine;
-    width: auto;
+    background-color: rgb(153, 0, 255);
 }
 
 .menuSquare{
     width: auto;
+    text-align: center;
     background-color: aquamarine;
+    
 }
 
 .cateringSquare{
     width: auto;
-    background-color: aquamarine;
+    text-align: center;
+    background-color: rgb(187, 190, 0);
 }
+
+
