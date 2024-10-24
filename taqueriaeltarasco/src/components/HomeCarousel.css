@@ -33,10 +33,9 @@
 }
 
 
-.custom-dot-list-style button {
-    border: none;
+.custom-dot-list-style {
     
-    width: 3px;
+    color: aqua;
     z-index: 1;
 }
 

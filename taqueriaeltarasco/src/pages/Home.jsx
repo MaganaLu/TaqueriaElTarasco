@@ -1,5 +1,10 @@
 import './Home.css';
 import HomeCarousel from '../components/HomeCarousel';
+import aboutSquareImage from '../assets/StoreFront.jpg';
+import menuImage from '../assets/MenuTacos.jpg';
+import cateringImage from '../assets/CateringPizzaBirria.jpg';
+import tacoPlateImage from '../assets/tacoPlateImage.png';
+
 
 
 const Home = () => {
@@ -11,17 +16,34 @@ const Home = () => {
             <div className='mainHomeOuterContainer'>
                 <div className='mainHomeInnerContainer'>
 
-                    <div className='homeTopOuterContainer'>
-                        <div className='homeTopContainer'>
-                            <h2>Tacos and More!</h2>
-                            <p>;p;</p>
-                            <button> See Menu </button>
+                    <div className='threeSquares'>
+                        <div className='menuSquare'>
+                            <div className='imageDiv'>
+                                <img className='image' src={cateringImage} />
+                            </div>
+                            <h2 className='overlayText'>Menu</h2>
                         </div>
-
-                        <div className='colorDivHelper'>
-                            lol
+                        <div className='aboutSquare'>
+                            <div className='imageDiv'>
+                                <img className='image' src={aboutSquareImage} />
+                            </div>
+                            <h2 className='overlayText' >About</h2>
+                        </div>
+                        <div className='cateringSquare'>
+                            <div className='imageDiv'>
+                                <img className='image' src={menuImage} />
+                            </div>
+                            <h2 className='overlayText'> Catering</h2>
                         </div>
                     </div>
+
+                    <div className='welcomeDiv'>
+                        <img className='image' src={tacoPlateImage} />
+                        <div className='welcomeDivText'>
+                            <h1>Welcome!</h1>
+                        </div>
+                    </div>
+
 
 
 

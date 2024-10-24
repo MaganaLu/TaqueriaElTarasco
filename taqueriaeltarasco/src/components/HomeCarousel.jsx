@@ -68,9 +68,10 @@ const HomeCarousel = () => {
           autoPlay={true}
           swipeable={true}
           draggable={true}
-          showDots={false}
+          showDots={true}
           infinite={true}
           partialVisible={false} 
+          arrows={false}
           dotListClass="custom-dot-list-style"
         >
           {sliderImageUrl.map((imageEntry) => {
