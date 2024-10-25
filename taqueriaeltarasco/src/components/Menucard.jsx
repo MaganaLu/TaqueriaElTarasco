@@ -1,0 +1,28 @@
+
+import './Menucard.css';
+const Menucard = (props) => {
+
+    return (
+        <>
+            <div class="main">
+                <ul class="cards">
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image"><img src={props.image} alt={props.imageAlt}/></div>
+                            <div class="card_content">
+                                <h2 class="card_title">{props.itemName} &#x2022; ${props.price}</h2>
+                                <div class="card_text">
+                                    <p>{props.spanishDesc}</p>
+                                    <p>{props.englishDesc}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </>
+    )
+};
+
+export default Menucard;

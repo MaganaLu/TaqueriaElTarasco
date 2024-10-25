@@ -55,15 +55,16 @@ return (
                     </div>
                 </div>
 
-                <hr />
+                
 
                 <div className='bottomDiv'>
+                    <h1>Tacos and More!</h1>
                     <p>
                         At Taqueria El Tarasco, our offerings extend far beyond just tacos, although our tacos are undeniably exceptional! Our menu boasts an array of Mexican culinary essentials and traditional favorites to delight your palate
                     </p>
                     <button>View Menu</button>
                 </div>
-
+                <hr />
 
 
 
