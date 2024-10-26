@@ -10,18 +10,16 @@ const Footer = () => {
         <footer>
             <div className="footer">
                 <div className="row">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/"><img src={youtubeIcon} /></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61565934830066"><img src={facebookIcon} /></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61565934830066"><img src={instagramIcon} /></a>
-
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/people/Taqueria-El-Tarasco/61554178086102/?mibextid=LQQJ4d"><img src={facebookIcon} /></a>
                 </div>
 
                 <div className="row">
-                    <p>{"Contact Us: 509) 387 - 9799"}</p>
+                    <p>{"Contact Us: (509) 470-6925"}</p>
+                    <p>522 S Wenatchee Ave, Wenatchee, WA 98801</p>
                 </div>
 
                 <div className="row">
-                    Web Frontier Solutions LLC
+                    Site Designed by: Web Frontier Solutions LLC
                 </div>
             </div>
         </footer>

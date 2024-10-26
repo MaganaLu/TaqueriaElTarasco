@@ -129,7 +129,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--brown);
+    background-color: var(--green);
     max-width: 1500px;
     margin: auto;
     border-radius: 25px;
@@ -150,16 +150,18 @@
     width: 50%;
     text-align: center;
     max-width: 1080px;
+    color: white;
 }
 
 .bottomDiv{
     margin: auto;
     text-align: center;
     max-width: 1500px;
-    background-color: var(--brown);
+    background-color: var(--green);
     width: 90vw;
     border-radius: 25px;
     margin-top: 5px;
+    color: white;
 }
 
 /*mobile*/

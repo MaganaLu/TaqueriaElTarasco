@@ -1,5 +1,5 @@
 .footer {
-    background: #00000000;
+    background: #1d1d1d;
     font-family: 'Play', sans-serif;
     text-align: center;
 }
@@ -8,14 +8,14 @@
     width: 100%;
     
     padding: 0.6% 0%;
-    color: gray;
+    color: #f0f0f0;
     font-size: 0.8em;
     min-width: none;
 }
 
 .footer .row a {
     text-decoration: none;
-    color: gray;
+    color: #f0f0f0;
     transition: 0.5s;
 }
 

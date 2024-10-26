@@ -1,9 +1,10 @@
 :root {
-  --brown: #f0f0f0;
+  --brown: #f4e3c9;
   --darkerBrown: #fcae66ff;
   --red: #ff422fff;
   --blue: #4b7fafff;
   --green: #538951ff;
+  --yellow: #edad31;
   padding: 0px;
   background-image:url("../src/assets/folkPatternBlack.webp");
 
@@ -32,10 +33,10 @@ Button {
   cursor: pointer;
   padding: 17px 30px;
   border: 0;
-  color:  var(--green);
+  color:  #000000;
   font-size: 17.5px;
   border: 2px solid transparent;
-  border-color: var(--green);
+  border-color: black;
   background: transparent;
   font-weight: 800;
   line-height: 30px;
@@ -43,11 +44,13 @@ Button {
   transition: background,color .1s ease-in-out;
   padding: 10px;
   margin-bottom: 20px;
+  background-color:  var(--yellow);
 }
 
 Button:hover {
-  background-color:  var(--green);
-  color: #fff;
+  background-color:  var(--yellow);
+  color: #ffffff;
+  border-color: white;
 }
 
 h1 {

@@ -21,7 +21,7 @@ const Portfolio = () => {
           <div className='storyContainer'>
             <h1>Services</h1>
             <hr />
-            <p>We offer Catering for parties, ceremonies, gatherings and more. We provide and set everything up for you. We cook eveything fresh at the location and provide salsas and garnishes. </p>
+            <p>We offer catering for parties, ceremonies, gatherings, and more. We provide and set everything up for you, cooking everything fresh at your location and providing salsas and garnishes. Let us handle the details so you can enjoy a delicious, stress-free experience with your guests. </p>
           </div>
 
           <div className='mottoContainer'>
@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
           <div className='aboutOverlayText'>
             <h1> Authentic Michoacan Tacos</h1>
-            <p1>We utilize premium cuts of meat and the freshest ingredients to craft our salsas and prepare all our meals from scratch on a daily basis</p1>
+            <p1>We’re proud to offer catering services to bring our delicious offerings to your special events, making any occasion truly memorable.</p1>
           </div>
 
         </div>
