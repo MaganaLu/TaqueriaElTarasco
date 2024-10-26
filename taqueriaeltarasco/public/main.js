@@ -48,9 +48,9 @@ const getMenuEntries = () => {
                 const metadata = parseMetadata({ lines, metadataIndices })
                 const description = parseContent({lines, metadataIndices})
                 post = {
+                    itemName: metadata.itemName ? metadata.itemName : "No Item Name given",
                     thumbnail: metadata.thumbnail,
                     imageAlt: metadata.imageAlt,
-                    itemName: metadata.itemName ? metadata.itemName : "No Item Name given",
                     price: metadata.price,                  
                     description: description ? description : "No description given",                    
                 }
