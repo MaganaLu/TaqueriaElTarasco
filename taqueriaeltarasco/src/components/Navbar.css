@@ -11,21 +11,20 @@
   height: 100%;
   border-radius: 25px;
   left: 2px;
-
 }
 
 
 
 .navbar {
   height: 60px;
-  background-color: white;
+  background-color: #f0f0f0;
   position: sticky;
   z-index: 10;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5px;
   width: auto;
   min-width: min-content;
+  top: 0px;
 }
 
 .logo {

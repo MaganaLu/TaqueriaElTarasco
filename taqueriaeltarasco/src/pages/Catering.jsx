@@ -14,7 +14,7 @@ const Portfolio = () => {
   return (
     <>
 
-      <PageHeader image='../assets/NatureImage.jpg' hText="Catering" />
+      <PageHeader hText="Catering" />
       <div className='aboutOuterContainer'>
         <div className='aboutInnerContainer'>
 
