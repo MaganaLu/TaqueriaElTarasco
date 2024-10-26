@@ -12,8 +12,7 @@ const Menucard = (props) => {
                             <div class="card_content">
                                 <h2 class="card_title">{props.itemName} &#x2022; ${props.price}</h2>
                                 <div class="card_text">
-                                    <p>{props.spanishDesc}</p>
-                                    <p>{props.englishDesc}</p>
+                                    <p>{props.Description}</p>
                                 </div>
                             </div>
                         </div>

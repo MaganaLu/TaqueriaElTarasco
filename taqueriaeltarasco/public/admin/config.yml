@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# These lines should *not* be indented
+media_folder: "taqueriaeltarasco/public/images"
+public_folder: "/images"
+
+collections:
+  - name: "menuEntries" # Used in routes, e.g., /admin/collections/blog
+    label: "Menu Entries" # Used in the UI
+    folder: "taqueriaeltarasco/menuEntries" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: true }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: true }
+      - { label: "Item Name", name: "itemName", widget: "string", required: true }
+      - { label: "price", name: "price", widget: "number", value_type: "float", step: .01, required: true }
+      - { label: "Description", name: "body", widget: "markdown", required: true }

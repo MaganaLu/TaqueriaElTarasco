@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node public/main.js && vite",
+    "build": "node public/main.js && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node dist/main.js"
   },
   "dependencies": {
     "react": "^18.3.1",
