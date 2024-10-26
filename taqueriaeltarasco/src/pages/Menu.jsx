@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import PageHeader from "../components/PageHeader";
 import "./Menu.css";
 import Menucard from "../components/Menucard";
+import menuEntries from '../menuEntries.json';
 
 
 const Menu = () => {
@@ -9,20 +10,20 @@ const Menu = () => {
 
   function parseLists() {
 
-    for (var i = 0, max = portfolioEntries.length; i < max; i++) {
+    for (var i = 0, max = menuEntries.length; i < max; i++) {
 
-      if (sorted[portfolioEntries[i].type] == undefined) {
-        sorted[portfolioEntries[i].type] = [];
+      if (sorted[menuEntries[i].type] == undefined) {
+        sorted[menuEntries[i].type] = [];
       }
-      sorted[portfolioEntries[i].type].push(portfolioEntries[i]);
+      sorted[menuEntries[i].type].push(menuEntries[i]);
     }
   }
 
   function checkUndefinedSection(arrayString) {
     if (sorted[arrayString] != undefined) {
-      return (sorted[arrayString].map(portfolioEntry =>
-        <ul key={portfolioEntry.title} className="ulPortfolio">
-          <Menucard description={portfolioEntry.description} thumbnail={portfolioEntry.thumbnail} videoLink={portfolioEntry.videoURL} title={portfolioEntry.title} date={portfolioEntry.date} type={portfolioEntry.type} />
+      return (sorted[arrayString].map(menuEntry =>
+        <ul key={menuEntry.title} className="ulPortfolio">
+          <Menucard  image={menuEntry.thumbnail}  type={menuEntry.type} />
 
         </ul>)
       )
@@ -46,7 +47,7 @@ const Menu = () => {
     };
   }, [])
 
-  //parseLists();
+  parseLists();
 
   return (
     <>
@@ -57,7 +58,7 @@ const Menu = () => {
           <h1>Test</h1>
           <hr></hr>
           <div className="portfolioCardContainer">
-            {checkUndefinedSection("Golf Courses")}
+            {checkUndefinedSection("MainCourse")}
           </div>
         </div>
       </div>

@@ -1,9 +1,1 @@
-[
-    {
-        "itemName": "TacosTest\r",
-        "thumbnail": "/images/path3787.svg.png\r",
-        "imageAlt": "Tacos Image\r",
-        "price": "5.25\r",
-        "description": "Asada, Adobada"
-    }
-]
+[{"itemName":"Tacos\r","thumbnail":"/images/path3787.svg.png\r","imageAlt":"simple tacos image\r","price":"5.99\r","description":"Asada, Adobada"}]

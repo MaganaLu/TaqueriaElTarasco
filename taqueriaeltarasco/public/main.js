@@ -52,7 +52,8 @@ const getMenuEntries = () => {
                     thumbnail: metadata.thumbnail,
                     imageAlt: metadata.imageAlt,
                     price: metadata.price,                  
-                    description: description ? description : "No description given",                    
+                    description: description ? description : "No description given",  
+                    type: metadata.type,                  
                 }
                 menuEntriesList.push(post)
                 ilist.push(i)

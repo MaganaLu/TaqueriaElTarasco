@@ -18,3 +18,4 @@ collections:
       - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: true }
       - { label: "price", name: "price", widget: "number", value_type: "float", step: .01, required: true }
       - { label: "Description", name: "body", widget: "markdown", required: true }
+      - { label: "Type", name: "type", widget: "select", options: ["Specials", "MainCourse", "Drinks"] }
