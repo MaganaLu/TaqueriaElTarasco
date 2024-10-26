@@ -28,12 +28,10 @@
   background-color: white;
   position: sticky;
   z-index: 10;
-
   margin-left: auto;
   margin-right: auto;
-
-
-
+  border-radius: 25px;
+  margin-bottom: 5px;
   width: auto;
   min-width: min-content;
 }
@@ -125,13 +123,11 @@
     transition: all 0.3s ease-out;
     overflow: hidden;
     z-index: 2;
-    border-radius: 0px;
     width: 220px;
     height: 0;
     z-index: -1;
     animation-name: spinner;
-
-
+    border-radius: 25px;
     min-width: none;
   }
 
