@@ -23,7 +23,7 @@ const Menu = () => {
     if (sorted[arrayString] != undefined) {
       return (sorted[arrayString].map(menuEntry =>
         <ul key={menuEntry.title} className="ulPortfolio">
-          <Menucard  image={menuEntry.thumbnail}  type={menuEntry.type} />
+          <Menucard  image={menuEntry.thumbnail}  type={menuEntry.type} imageAlt={menuEntry.type} itemName={menuEntry.itemName} price={menuEntry.price} Description={menuEntry.description} />
 
         </ul>)
       )
