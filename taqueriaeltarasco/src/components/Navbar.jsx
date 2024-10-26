@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import HamburgerMenu from '../assets/HamburgerMenu.svg';
-import TaqueriaEltarascoLogo from '../assets/MainTaqueriaLogo.svg';
+import TaqueriaEltarascoLogo from '../assets/TarascoLogo.jpg';
 
 import './Navbar.css'
 
@@ -14,35 +14,44 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="navbar">
-      <div className="container">
-        <div className="logo">
-          <img style={{width:"auto", height:"50px"}} src={TaqueriaEltarascoLogo}/>
-          <p style={{overflow:"hidden"}}>Taqueria El Tarasco</p>
-        </div>
-        <div className="menu-icon" onClick={handleShowNavbar}>
-          <img style={{ height: "50px", width: "25px" }} src={HamburgerMenu} alt="menu" />
-        </div>
-        <div className="NavElementsContainer">
-          <div className={`nav-elements  ${showNavbar && 'active'}`}>
-            <ul>
-              <li>
-                <NavLink onClick={()=> setShowNavbar(false)} to="/">Home</NavLink>
-              </li>
-              <li>
-                <NavLink onClick={()=> setShowNavbar(false)} to="/Menu">Menu</NavLink>
-              </li>
-              <li>
-                <NavLink onClick={()=> setShowNavbar(false)} to="/Catering">Catering</NavLink>
-              </li>
-              <li>
-                <NavLink onClick={()=> setShowNavbar(false)} to="/About">About</NavLink>
-              </li>
-            </ul>
+    <>
+      <nav className="navbar">
+        <div className="container">
+          <div className='OrderButtonDiv'>
+            <button style={{marginLeft:'-12px',borderColor:'black',color:'white', backgroundColor:'black', marginTop:'2.5px'}}>ORDER<br></br> ONLINE</button>
+          </div>
+          <div className="logo">
+            <img style={{ width: "auto", height: "90px" }} src={TaqueriaEltarascoLogo} />
+            
+          </div>
+          <div className="menu-icon" onClick={handleShowNavbar}>
+            <img style={{ height: "50px", width: "25px", top:'18px', position:'relative' }} src={HamburgerMenu} alt="menu" />
+          </div>
+          <div className="NavElementsContainer">
+            <div className={`nav-elements  ${showNavbar && 'active'}`}>
+              <ul>
+                <li>
+                  <NavLink onClick={() => setShowNavbar(false)} to="/">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink onClick={() => setShowNavbar(false)} to="/Menu">Menu</NavLink>
+                </li>
+                <li>
+                  <NavLink onClick={() => setShowNavbar(false)} to="/Catering">Catering</NavLink>
+                </li>
+                <li>
+                  <NavLink onClick={() => setShowNavbar(false)} to="/About">About</NavLink>
+                </li>
+
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+
+      </nav>
+
+
+    </>
   )
 }
 

@@ -16,8 +16,8 @@
 
 
 .navbar {
-  height: 60px;
-  background-color: #f0f0f0;
+  height: 90px;
+  background-color: #f4e3c9;
   position: sticky;
   z-index: 10;
   margin-left: auto;
@@ -29,7 +29,7 @@
 
 .logo {
   display: flex;
-  padding-top: 5px;
+  
   flex: 0%;
   max-width: 600px;
   min-width: none;
@@ -45,6 +45,9 @@
 
 .nav-elements {}
 
+.NavElementsContainer{
+  align-content: center;
+}
 
 .nav-elements ul {
   display: flex;
@@ -79,8 +82,12 @@
   background-color: var(--green);
 }
 
+.OrderButtonDiv{
+  
+}
 
-@media (max-width: 768px) {
+
+@media (max-width: 812px) {
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
@@ -94,7 +101,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -104,8 +111,8 @@
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 60px;
-    background-color: white;
+    top: 90px;
+    background-color: #f4e3c9;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(90px);
@@ -116,14 +123,15 @@
     z-index: 2;
     width: 220px;
     height: 0;
-    z-index: -1;
+    z-index: 2;
     animation-name: spinner;
-    border-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
     min-width: none;
   }
 
   .nav-elements.active {
-    height: 250px;
+    height: 300px;
   }
 
   .nav-elements ul {
