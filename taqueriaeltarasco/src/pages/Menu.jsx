@@ -23,30 +23,13 @@ const Menu = () => {
     if (sorted[arrayString] != undefined) {
       return (sorted[arrayString].map(menuEntry =>
         <ul key={menuEntry.title} className="ulPortfolio">
-          <Menucard  image={menuEntry.thumbnail}  type={menuEntry.type} imageAlt={menuEntry.type} itemName={menuEntry.itemName} price={menuEntry.price} Description={menuEntry.description} />
+          <Menucard image={menuEntry.thumbnail} type={menuEntry.type} imageAlt={menuEntry.type} itemName={menuEntry.itemName} price={menuEntry.price} Description={menuEntry.description} />
 
         </ul>)
       )
     }
   }
-
-  useEffect(() => {
-    const urlHash = window.location.hash;
-    if (urlHash.length) {
-      const element = document.getElementById(urlHash);
-      if (element) {
-        setTimeout(function () {
-          element.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
-        }, 250);
-      }
-    }
-    return () => {
-    };
-  }, [])
-
+  
   parseLists();
 
   return (
@@ -55,11 +38,28 @@ const Menu = () => {
 
       <div className="menuOuterContainer">
         <div className="menuInnerContainer">
-          <h1>Test</h1>
+
+          <hr></hr>
+          <h1>Specials</h1>
+          <hr></hr>
+          <div className="portfolioCardContainer">
+            {checkUndefinedSection("Specials")}
+          </div>
+
+          <hr></hr>
+          <h1>Main Course</h1>
           <hr></hr>
           <div className="portfolioCardContainer">
             {checkUndefinedSection("MainCourse")}
           </div>
+
+          <hr></hr>
+          <h1>Drinks</h1>
+          <hr></hr>
+          <div className="portfolioCardContainer">
+            {checkUndefinedSection("Drinks")}
+          </div>
+
         </div>
       </div>
 
