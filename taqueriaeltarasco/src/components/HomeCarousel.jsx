@@ -2,6 +2,11 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./HomeCarousel.css";
 
+import carouselImage1 from "../assets/carouselImage1.jpg";
+import carouselImage2 from "../assets/carouselImage2.jpg";
+import carouselImage3 from "../assets/carouselImage3.jpg";
+
+
 
 //import homeEntries from '../homeEntries.json';
 
@@ -26,35 +31,16 @@ const responsive = {
 const sliderImageUrl = [
   //First image url
   {
-    mediaURL: "https://placehold.co/1920x1080",
-    bigText: "caption 1",
-    smallText: "words"
-
-  },
-  {
-    mediaURL: "https://placehold.co/1920x1080",
-    bigText: "caption 2",
-    smallText: "words"
+    mediaURL: carouselImage1,
   },
   //Second image url
   {
-    mediaURL: "https://placehold.co/1920x1080",
-    bigText: "caption 3",
-    smallText: "words"
+    mediaURL: carouselImage2,
   },
   //Third image url
   {
-    mediaURL: "https://placehold.co/1920x1080",
-    bigText: "caption 4",
-    smallText: "words"
+    mediaURL: carouselImage3,
   },
-
-  //Fourth image url
-  {
-    mediaURL: "https://placehold.co/1920x1080",
-    bigText: "caption 5",
-    smallText: "words"
-  }
 ];
 
 
