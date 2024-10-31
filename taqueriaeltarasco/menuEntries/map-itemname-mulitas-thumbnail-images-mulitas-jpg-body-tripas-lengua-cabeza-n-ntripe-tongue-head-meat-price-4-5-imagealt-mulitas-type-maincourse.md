@@ -6,5 +6,3 @@ price: 4.5
 type: MainCourse
 ---
 Tripas, lengua, Cabeza
-
-Tripe, Tongue, Head Meat
