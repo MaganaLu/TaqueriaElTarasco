@@ -1,7 +1,7 @@
 
 import './Menucard.css';
 const Menucard = (props) => {
-
+    let price = (props.price).toFixed(2);
     return (
         <>
             <div class="main">
@@ -10,7 +10,7 @@ const Menucard = (props) => {
                         <div class="card">
                             <div class="card_image"><img src={props.image} alt={props.imageAlt}/></div>
                             <div class="card_content">
-                                <h2 class="card_title">{props.itemName} &#x2022; ${props.price}</h2>
+                                <h2 class="card_title">{props.itemName} &#x2022; ${price}</h2>
                                 <div class="card_text">
                                     <p>{props.Description}</p>
                                 </div>

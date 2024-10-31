@@ -33,7 +33,7 @@ Button {
   cursor: pointer;
   padding: 17px 30px;
   border: 0;
-  color:  #000000;
+  color:  black;
   font-size: 17.5px;
   border: 2px solid transparent;
   border-color: black;
@@ -44,11 +44,11 @@ Button {
   transition: background,color .1s ease-in-out;
   padding: 10px;
   margin-bottom: 20px;
-  background-color:  var(--yellow);
+  background-color:  transparent;
 }
 
 Button:hover {
-  background-color:  var(--yellow);
+  background-color:  var(--green);
   color: #ffffff;
   border-color: white;
 }

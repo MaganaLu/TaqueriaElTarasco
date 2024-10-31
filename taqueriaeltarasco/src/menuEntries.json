@@ -1,1 +1,170 @@
-[{"itemName":"Tacos\r","thumbnail":"/images/path3787.svg.png\r","imageAlt":"simple tacos image\r","price":"5.99\r","description":"Asada, Adobada","type":"MainCourse\r"}]
+[
+    {
+        "itemName": "Tacos\r",
+        "thumbnail": "/images/Tacos.jpg\r",
+        "imageAlt": "tacos\r",
+        "price": "4\r",
+        "description": "Tripas, Lengua, Cabeza\r\n\r\nTripe, Tongue, Head Meat",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Tortas\r",
+        "thumbnail": "/images/Torta.jpg\r",
+        "imageAlt": "Tortas\r",
+        "price": "13\r",
+        "description": "Asada, Adobada, Carnitas, Pollo, Birria\r\n\r\nBeef, Pork, Pork Carnitas, Chicken, Beef BBQ",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Tortas\r",
+        "thumbnail": "/images/Torta.jpg\r",
+        "imageAlt": "Tortas\r",
+        "price": "15\r",
+        "description": "Tripas, lengua, Cabeza\r\n\r\nTripe, Tongue, Head Meat",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Tacos\r",
+        "thumbnail": "/images/Tacos.jpg\r",
+        "imageAlt": "Tacos\r",
+        "price": "2.75\r",
+        "description": "Asada, Adobada, Carnitas, Pollo, Birria\r\n\r\nBeef, Pork, Pork Carnitas, Chicken, Beef BBQ",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Ramen Birria\r",
+        "thumbnail": "/images/birriaRamen.jpg\r",
+        "imageAlt": "pizza birria\r",
+        "price": "15\r",
+        "description": "Birria y fideos ramen en una taza de consome caliente\r\n\r\nBirria and ramen noodles in a warm cup of consome",
+        "type": "Specials\r"
+    },
+    {
+        "itemName": "Pizza Birria\r",
+        "thumbnail": "/images/pizzabirria.jpg\r",
+        "imageAlt": "Pizza Birria\r",
+        "price": "18\r",
+        "description": "Dos tortillas grandes rellenas de queso y birria con una taza de consome\r\n\r\nTwo large tortillas stuffed with cheese and birria with a cup of consome",
+        "type": "Specials\r"
+    },
+    {
+        "itemName": "Small Aguas Frescas\r",
+        "thumbnail": "/images/AguasFrescas.png\r",
+        "imageAlt": "Small Aguas Frescas\r",
+        "price": "3\r",
+        "description": "Small Aguas Frescas",
+        "type": "Drinks\r"
+    },
+    {
+        "itemName": "Quesadillas\r",
+        "thumbnail": "/images/Quesadillas.jpg\r",
+        "imageAlt": "Quesadillas\r",
+        "price": "13\r",
+        "description": "Asada, Adobada, Carnitas, Pollo, Birria\r\n\r\nBeef, Pork, Pork Carnitas, Chicken, Beef BBQ",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Quesabirrias\r",
+        "thumbnail": "/images/Quesabirrias.jpg\r",
+        "imageAlt": "Quesabirrias\r",
+        "price": "15\r",
+        "description": "Tres Quesadillas con birria y una taza de consome\r\n\r\nThree Quesadillas with birria and a dipping cup of consome",
+        "type": "Specials\r"
+    },
+    {
+        "itemName": "Quesadillas\r",
+        "thumbnail": "/images/Quesadillas.jpg\r",
+        "imageAlt": "Quesadillas\r",
+        "price": "15\r",
+        "description": "Tripas, lengua, Cabeza\r\n\r\nTripe, Tongue, Head Meat",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Mulitas\r",
+        "thumbnail": "/images/Mulitas.jpg\r",
+        "imageAlt": "Mulitas\r",
+        "price": "3.75\r",
+        "description": "Asada, Adobada, Carnitas, Pollo, Birria\r\n\r\nBeef, Pork, Pork Carnitas, Chicken, Beef BBQ",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Large Aguas Frescas\r",
+        "thumbnail": "/images/AguasFrescas.png\r",
+        "imageAlt": "Large Aguas Frescas\r",
+        "price": "5\r",
+        "description": "Horchata, Jamaica",
+        "type": "Drinks\r"
+    },
+    {
+        "itemName": "Mulitas\r",
+        "thumbnail": "/images/Mulitas.jpg\r",
+        "imageAlt": "Mulitas\r",
+        "price": "4.5\r",
+        "description": "Tripas, lengua, Cabeza\r\n\r\nTripe, Tongue, Head Meat",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Carne Asada\r",
+        "thumbnail": "/images/CarneAsada.jpg\r",
+        "imageAlt": "carne asada\r",
+        "price": "18\r",
+        "description": "Carne asada",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Chile Relleno\r",
+        "thumbnail": "/images/ChillesRellenos.jpg\r",
+        "imageAlt": "Chile Relleno\r",
+        "price": "14\r",
+        "description": "Agrega otra chile por $4.00 mas\r\n\r\nAdd another for $4.00 more",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Jumex\r",
+        "thumbnail": "/images/jumex.jpg\r",
+        "imageAlt": "Jumex\r",
+        "price": "3\r",
+        "description": "jumex",
+        "type": "Drinks\r"
+    },
+    {
+        "itemName": "Burritos\r",
+        "thumbnail": "/images/burritos.jpg\r",
+        "imageAlt": "Burritos\r",
+        "price": "12\r",
+        "description": "Asada, Adobada, Carnitas, Pollo, Birria\r\n\r\nBeef, Pork, Pork Carnitas, Chicken, Beef BBQ",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Bottled Water\r",
+        "thumbnail": "/images/bottleWater.jpg\r",
+        "imageAlt": "water bottle\r",
+        "price": "1.5\r",
+        "description": "bottled water",
+        "type": "Drinks\r"
+    },
+    {
+        "itemName": "Birria\r",
+        "thumbnail": "/images/Birria.jpg\r",
+        "imageAlt": "Birria\r",
+        "price": "18\r",
+        "description": "Birria",
+        "type": "MainCourse\r"
+    },
+    {
+        "itemName": "Bottle Soda\r",
+        "thumbnail": "/images/BottleSoda.jpg\r",
+        "imageAlt": "bottle soda\r",
+        "price": "3\r",
+        "description": "bottled soda",
+        "type": "Drinks\r"
+    },
+    {
+        "itemName": "Burritos\r",
+        "thumbnail": "/images/burritos.jpg\r",
+        "imageAlt": "Burritos\r",
+        "price": "14\r",
+        "description": "Tripas, lengua, Cabeza\r\n\r\nTripe, Tongue, Head Meat",
+        "type": "MainCourse\r"
+    }
+]
