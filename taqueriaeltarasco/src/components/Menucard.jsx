@@ -1,7 +1,7 @@
 
 import './Menucard.css';
 const Menucard = (props) => {
-    let price = (props.price).toFixed(2);
+    let price = (Number(props.price)).toFixed(2);
     return (
         <>
             <div class="main">
