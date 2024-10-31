@@ -5,5 +5,6 @@ imageAlt: Chile Relleno
 price: 14
 type: MainCourse
 ---
-* Agrega otra chile por $4.00 mas
-* Add another for $4.00 more
+Agrega otra chile por $4.00 mas \n /n 
+
+Add another for $4.00 more
