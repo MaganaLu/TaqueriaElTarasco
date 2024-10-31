@@ -23,7 +23,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
           <div className='OrderButtonDiv'>
-            <button onClick={() => goToOrderWebsite} style={{ marginLeft: '-12px', borderColor: 'black', color: 'white', backgroundColor: 'black', marginTop: '2.5px' }}>ORDER<br></br> ONLINE</button>
+            <button onClick={goToOrderWebsite} style={{ marginLeft: '-12px', borderColor: 'black', color: 'white', backgroundColor: 'black', marginTop: '2.5px' }}>ORDER<br></br> ONLINE</button>
           </div>
           <div className="logo">
             <img style={{ width: "auto", height: "90px" }} src={TaqueriaEltarascoLogo} />
