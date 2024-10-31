@@ -13,19 +13,24 @@ const Navbar = () => {
     setShowNavbar(!showNavbar)
   }
 
+  function goToOrderWebsite() {
+    window.open("https://fromtherestaurant.com/taqueria-el-tarasco-wa/locations/", "_blank", "noopener, noreferrer")
+  }
+
+
   return (
     <>
       <nav className="navbar">
         <div className="container">
           <div className='OrderButtonDiv'>
-            <button style={{marginLeft:'-12px',borderColor:'black',color:'white', backgroundColor:'black', marginTop:'2.5px'}}>ORDER<br></br> ONLINE</button>
+            <button onClick={() => goToOrderWebsite} style={{ marginLeft: '-12px', borderColor: 'black', color: 'white', backgroundColor: 'black', marginTop: '2.5px' }}>ORDER<br></br> ONLINE</button>
           </div>
           <div className="logo">
             <img style={{ width: "auto", height: "90px" }} src={TaqueriaEltarascoLogo} />
-            
+
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
-            <img style={{ height: "50px", width: "25px", top:'18px', position:'relative' }} src={HamburgerMenu} alt="menu" />
+            <img style={{ height: "50px", width: "25px", top: '18px', position: 'relative' }} src={HamburgerMenu} alt="menu" />
           </div>
           <div className="NavElementsContainer">
             <div className={`nav-elements  ${showNavbar && 'active'}`}>
