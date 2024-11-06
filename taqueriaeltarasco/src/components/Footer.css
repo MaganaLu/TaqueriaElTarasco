@@ -1,7 +1,9 @@
 .footer {
+    margin: auto;
     background: #1d1d1d;
     font-family: 'Play', sans-serif;
     text-align: center;
+    max-width: 1920px;
 }
 
 .footer .row {
