@@ -26,7 +26,9 @@ const Navbar = () => {
             <button onClick={goToOrderWebsite} style={{ marginLeft: '-12px', borderColor: 'black', color: 'white', backgroundColor: 'black', marginTop: '2.5px' }}>ORDER<br></br> ONLINE</button>
           </div>
           <div className="logo">
-            <img style={{ width: "auto", height: "90px" }} src={TaqueriaEltarascoLogo} />
+            <NavLink to="/">
+              <img style={{ width: "auto", height: "90px" }} src={TaqueriaEltarascoLogo} />
+            </NavLink>
 
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
