@@ -2,7 +2,7 @@
 itemName: Birria
 thumbnail: /images/Birria.jpg
 imageAlt: Birria
-price: 18
+price: 19
 type: MainCourse
 ---
 Birria
