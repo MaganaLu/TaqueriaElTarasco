@@ -2,7 +2,7 @@
 itemName: Carne Asada
 thumbnail: /images/CarneAsada.jpg
 imageAlt: carne asada
-price: 18
+price: 20
 type: MainCourse
 ---
 Carne asada
