@@ -1,7 +1,7 @@
 ---
 itemName: Chile Relleno
 thumbnail: /images/ChillesRellenos.jpg
-imageAlt: Chile Relleno
+imageAlt: 1-Chile Relleno
 price: 14
 type: MainCourse
 ---
